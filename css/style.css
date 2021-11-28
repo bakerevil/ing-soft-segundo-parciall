@@ -1,0 +1,56 @@
+body{
+    font-family:'Nunito', sans-serif;
+}
+
+.header{
+    min-height: 800px;
+    margin-bottom: 120px;
+}
+.header-table{
+    width: 50%;
+    height: 800px;
+    background: url(../img/header-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header-container{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #DAA520;
+}
+
+.button{
+    background: #DAA520;
+    text-decoration: none;
+    color:#ffffff;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+.woodies-furtinure{
+    min-height: 415px;
+}
+.woodies-furtinure-center{
+    display: flex;
+    align-items: center;
+}
+
+.woodies-furtinure h3{
+    color: #3e3f43;
+    font-size: 36p2.25rem;
+
+}
+.woodies-furtinure p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000000;
+}
